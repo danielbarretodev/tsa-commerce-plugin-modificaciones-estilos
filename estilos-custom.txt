@@ -1,0 +1,56 @@
+/****************************
+ * CUSTOM CSS
+***************************/
+	  .custom-card > .row {
+		display:flex!important;
+		flex-wrap:wrap!important;
+		margin: 0 !important;
+		justify-content: space-between;
+	}
+
+	.custom-card  a {
+		padding: 0 !important;
+		width: 32% !important;
+		margin: auto !important;
+		margin-bottom:  20px!important;
+	}
+
+
+.custom-card .tsa-card .tsa-card__image {
+	max-width: 100%!important;
+}
+
+.custom-card .tsa-card .tsa-card__title {
+		text-align: center!important;
+		font-weight: bold!important;
+		font-size: 23px!important;
+
+}
+
+.custom-card .tsa-button {
+	display: none!important;
+}
+
+@media (max-width: 768px) {
+	
+
+		.custom-card  a {
+		width: 47% !important;
+		
+	}
+}
+
+
+@media (max-width: 576px) {
+	
+	
+		.custom-card  a {
+		width: 100% !important;
+		
+	}
+}
+
+
+/****************************
+ * CUSTOM CSS
+***************************/
