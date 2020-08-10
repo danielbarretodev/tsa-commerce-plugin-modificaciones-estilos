@@ -1,0 +1,126 @@
+
+
+/****************************
+ * CODIGO PARA LISTAR TODAS LAS CATEGORÍAS
+***************************/
+/*
+<div class="custom-card">[tsa_categories]</div>
+*/
+
+
+/****************************
+ * CODIGO PARA LISTAS LOS PRODUCTOS DE UNA CATEGORIA(cambia "para-ninos" por el nombre de tu categoria)
+***************************/
+
+/*
+<div class="custom-card">[tsa_products category="para-ninos"]</div>
+*/
+
+
+
+/****************************
+ * CUSTOM CSS
+***************************/
+	  .custom-card > .row {
+		display:flex!important;
+		margin: 0 !important;
+		justify-content: space-between;
+	}
+
+	.custom-card  a {
+		height: 331px;
+    	box-shadow: 5px 5px 24px 1px rgba(125,125,125,.72)!important;
+    	padding-left: 15px!important;
+    	padding-right: 15px!important;
+    	border-radius: 5px!important;
+		width: 24% !important;
+		margin: none !important;
+		margin-bottom:  20px!important;
+	}
+
+.custom-card figure {
+	
+	border: none !important;
+	
+}
+
+.custom-card .tsa-card__title {
+		border: none !important;
+}
+
+.custom-card .tsa-card .tsa-card__image {
+	max-width: 100%!important;
+}
+
+.custom-card .tsa-card .tsa-card__title {
+		text-align: center!important;
+		font-weight: bold!important;
+		font-size: 26px!important;
+		color: #1e73be!important;
+
+}
+
+.custom-card .tsa-button {
+	display: none!important;
+}
+
+@media (max-width: 900px) {
+	
+	
+	figure {
+		height: 25vw!important;
+	}
+		.custom-card  a {
+		width: 26% !important;
+		height: 37vw!important;
+		
+	}
+	
+	.tsa-card_title {
+		font-size: 1.9rem!important;
+	}
+	
+	
+}
+
+
+@media (max-width: 614px) {
+	
+	.custom-card {
+		width: 100%;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+	}
+	
+		.custom-card  a {
+		width: 100% !important;
+		height: 57vw!important;
+			min-width: 100%!important;
+			
+			
+		}
+	
+	figure {
+		height: 45vw!important;
+	}
+	
+	h1 {
+		font-size: 26px!important;
+	}
+
+	
+	.custom-card .row {
+		    width: 82vw!important;
+		display: flex!important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center!important;
+	}
+
+}
+
+
+/****************************
+ * CUSTOM CSS
+***************************/
